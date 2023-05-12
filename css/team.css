@@ -1,0 +1,401 @@
+#team {
+    height: 776px;
+    margin-top: 0px;
+    background: #FFFFFF;
+    margin-left:135px;
+}
+
+#team .container .upper_part {
+    margin-top: -196px;
+}
+
+#team .container .upper_part .valuable {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #217BF4;
+
+    margin-right: 100px;
+    margin-top: 190px;
+}
+
+#team .container .upper_part h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #0A093D;
+
+    margin-top: 9px;
+    margin-right: 100px;
+}
+
+#team .container .upper_part p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-right: 101px;
+    margin-top: 14px;
+}
+
+#team .container .upper_part .scroll {
+    width: 488px;
+    height: 86px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(33, 123, 244, 0.06);
+
+    margin-left: 348px;
+    margin-top: 40px;
+
+}
+
+#team .container .upper_part .scroll .firstbutton {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #2F2C4A;
+
+    opacity: 0.8;
+
+    margin-top: 35px;
+    margin-left: 58px;
+    cursor: pointer;
+}
+
+#team .container .upper_part .scroll .secondbutton {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #2F2C4A;
+
+    opacity: 0.8;
+
+    margin-left: -38px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+#team .container .upper_part .scroll p:hover {
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#team .container .upper_part .scroll button {
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+    border-radius: 14px;
+    width: 150px;
+    height: 56px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+    margin-top: 13px;
+    margin-left: -95px;
+    cursor: pointer;
+}
+
+#team .container .lower_part {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 135px;
+    margin-top: 44px;
+}
+
+#team .container .lower_part .fahim {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+    width: 270px;
+    height: 316px;
+    margin-left: -246px;
+}
+
+#team .container .lower_part .fahim .fahimsavatar {
+    width: 166px;
+    height: 166px;
+    margin-left: 52px;
+    padding-top: 30px;
+}
+
+#team .container .lower_part .fahim .frame {
+    width: 166px;
+    height: 166px;
+    position: relative;
+    z-index: 1;
+}
+
+#team .container .lower_part .fahim .photo {
+    position: absolute;
+    left: -7px;
+    top: 368px;
+    width: 142px;
+    height: 142px;
+}
+
+#team .container .lower_part .fahim h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+    text-align: center;
+
+    color: #2F2C4A;
+
+    margin-top: 29px;
+}
+
+#team .container .lower_part .fahim p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-top: -12px;
+}
+
+#team .container .lower_part .kazi {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+    width: 270px;
+    height: 316px;
+}
+
+#team .container .lower_part .kazi .kaziavatar {
+    width: 166px;
+    height: 166px;
+    margin-left: 52px;
+    padding-top: 30px;
+}
+
+#team .container .lower_part .kazi .kaziavatar .frame {
+    width: 166px;
+    height: 166px;
+    position: relative;
+    z-index: 1;
+}
+
+#team .container .lower_part .kazi h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+    text-align: center;
+
+    color: #2F2C4A;
+
+    margin-top: 26px;
+}
+
+#team .container .lower_part .kazi p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-top: -10px;
+}
+
+#team .container .lower_part .kazi .kaziavatar .photo {
+    position: absolute;
+    left: 340px;
+    top: 368px;
+    height: 142px;
+    width: 142px;
+}
+
+#team .container .lower_part .masterero {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+    width: 270px;
+    height: 316px;
+}
+
+#team .container .lower_part .masterero .mastereroavatar {
+    width: 166px;
+    height: 166px;
+    margin-left: 52px;
+    padding-top: 30px;
+}
+
+#team .container .lower_part .masterero .frame {
+    width: 166px;
+    height: 166px;
+    position: relative;
+    z-index: 1;
+}
+
+#team .container .lower_part .masterero .photo {
+    position: absolute;
+    left: 671px;
+    top: 360px;
+    height: 174px;
+    width: 174px;
+}
+
+#team .container .lower_part .masterero h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+    text-align: center;
+
+    color: #2F2C4A;
+
+    margin-top: 26px;
+}
+
+#team .container .lower_part .masterero p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-top: -11px;
+}
+
+#team .container .lower_part .alia {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+    width: 270px;
+    height: 316px;
+}
+
+#team .container .lower_part .aliaavatar {
+    width: 166px;
+    height: 166px;
+    margin-left: 52px;
+    padding-top: 30px;
+}
+
+#team .container .lower_part .frame {
+    width: 166px;
+    height: 166px;
+    position: relative;
+    z-index: 1;
+}
+
+#team .container .lower_part .photo {
+    position: absolute;
+    left: 1025px;
+    top: 364px;
+    height: 163px;
+    width: 163px;
+}
+
+#team .container .lower_part h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+    text-align: center;
+
+    color: #2F2C4A;
+
+    margin-top: 26px;
+}
+
+#team .container .lower_part p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-top: -10px;
+}

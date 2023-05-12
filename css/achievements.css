@@ -1,0 +1,258 @@
+#achievements {
+    height: 490px;
+    margin-top: 47px;
+    margin-left: 135px;
+}
+
+#achievements .container .details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#achievements .container .short_block .rating {
+    width: 336px;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    position: relative;
+}
+
+#achievements .container .short_block .rating .star {
+    padding: 45px 267px 274px 47px;
+    width: 28px;
+    height: 28px;
+}
+
+#achievements .container .short_block .rating h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    position: absolute;
+    top: 30px;
+    right: 153px;
+
+    color: #0A093D;
+}
+
+#achievements .container .short_block .rating .subs {
+    position: absolute;
+    left: 27px;
+    top: 102px;
+}
+
+#achievements .container .short_block .rating .stat {
+    position: absolute;
+    top: 116px;
+    left: 120px;
+}
+
+#achievements .container .short_block .rating p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    position: absolute;
+    top: 149px;
+    left: 44px;
+
+    color: #8C8C8C;
+}
+
+#achievements .container .short_block .rating a {
+    position: absolute;
+    bottom: 45px;
+    left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    color: #217BF4;
+
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#achievements .container .short_block .rating a:hover {
+    color: #00bcd4;
+    transform: translateY(3px);
+}
+
+#achievements .container .short_block .rating .arrowright {
+    position: absolute;
+    left: 205px;
+    bottom: 47px;
+}
+
+#achievements .container .short_block .awards {
+    background: #FFFFFF;
+    border-radius: 14px;
+    box-sizing: border-box;
+    width: 358px;
+    height: 340px;
+    position: relative;
+    margin-left: 360px;
+    margin-top: -337px;
+    border: 1px solid #B9B9B91E;
+}
+
+#achievements .container .short_block .awards .cup {
+    margin-top: 47px;
+    margin-left: 50px;
+}
+
+#achievements .container .short_block .awards h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+
+    color: #0A093D;
+
+    margin-left: 97px;
+    margin-top: -30px;
+}
+
+#achievements .container .short_block .awards .github {
+    margin-top: 38px;
+    margin-left: 40px;
+}
+
+#achievements .container .short_block .awards .praise {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    color: #5D5B70;
+
+    margin-left: 88px;
+    margin-top: -42px;
+}
+
+#achievements .container .short_block .awards .praise abbr {
+    color: #217BF4;
+    text-decoration: none;
+}
+
+#achievements .container .short_block .awards p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #8C8C8C;
+
+    margin-left: 53px;
+    margin-top: 24px;
+}
+
+#achievements .container .short_block .awards a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    color: #4A4A56;
+
+    margin-top: 3px;
+    margin-left: 52px;
+
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#achievements .container .short_block .awards a:hover {
+    color: #00bcd4;
+    transform: translateY(3px);
+}
+
+#achievements .container .more_info {
+    width: 400px;
+    height: 340px;
+    margin-right: 69px
+}
+
+#achievements .container .more_info p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+
+    color: #217BF4;
+}
+
+#achievements .container .more_info h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 133% */
+
+
+    color: #0A093D;
+
+    margin-left: -3px;
+}
+
+#achievements .container .more_info .social_media {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #656464;
+
+    margin-top: -22px;
+}
+
+#achievements .container .more_info button {
+    background: #217BF4;
+    box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+    border-radius: 14px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    border: none;
+
+    width: 192px;
+    height: 58px;
+
+    cursor: pointer;
+}

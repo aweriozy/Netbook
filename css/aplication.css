@@ -1,0 +1,211 @@
+#aplication {
+    height: 671px;
+    margin-top: 96px;
+    background: #FFFFFF;
+}
+
+#aplication .container .last_title p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #217BF4;
+
+    margin-top: 130px;
+}
+
+#aplication .container .last_title h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #0A093D;
+
+    margin-top: 10px;
+}
+
+#aplication .container .interesting_articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aplication .container .interesting_articles .first_article .laptop {
+    margin-top: 75px;
+}
+
+#aplication .container .interesting_articles .first_article .line {
+    position: absolute;
+    left: 20px;
+    top: 546px;
+}
+
+#aplication .container .interesting_articles .first_article h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+
+    color: #2F2C4A;
+
+    margin-left: 72px;
+    margin-top: 4px;
+}
+
+#aplication .container .interesting_articles .first_article a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-left: 72px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#aplication .container .interesting_articles .first_article a:hover {
+    color: #00bcd4;
+    transform: translateY(3px);
+}
+
+#aplication .container .interesting_articles .left_points {
+    position: absolute;
+    left: -50px;
+    top: 148px;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+#aplication .container .interesting_articles .second_article {
+    width: 347px;
+    height: 470px;
+}
+
+#aplication .container .interesting_articles .second_article .family {
+    margin-top: 75px;
+}
+
+#aplication .container .interesting_articles .second_article .line {
+    margin-left: 17px;
+    margin-top: 37px;
+}
+
+#aplication .container .interesting_articles .second_article h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+
+    color: #2F2C4A;
+
+    margin-left: 73px;
+    margin-top: -35px;
+}
+
+#aplication .container .interesting_articles .second_article a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #217BF4;
+
+    margin-left: 72px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#aplication .container .interesting_articles .second_article a:hover {
+    color: #00bcd4;
+    transform: translateY(3px);
+}
+
+#aplication .container .interesting_articles .third_article {
+    width: 347px;
+    height: 470px;
+}
+
+#aplication .container .interesting_articles .third_article .chips {
+    margin-top: 75px;
+}
+
+#aplication .container .interesting_articles .third_article .line {
+    margin-left: 17px;
+    margin-top: 37px;
+}
+
+#aplication .container .interesting_articles .third_article h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+
+    color: #2F2C4A;
+
+    margin-left: 73px;
+    margin-top: -35px;
+}
+
+#aplication .container .interesting_articles .third_article a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-left: 72px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#aplication .container .interesting_articles .third_article a:hover {
+    color: #00bcd4;
+    transform: translateY(3px);
+}
+
+#aplication .container .interesting_articles .right_points {
+    position: absolute;
+    right: -76px;
+    top: 238px;
+    filter: blur(1px);
+    z-index: -1;
+}

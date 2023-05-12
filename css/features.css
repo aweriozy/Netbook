@@ -1,0 +1,414 @@
+#features {
+    height: 1069px;
+    margin-top: 0px;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+#features .container .all_block{
+    margin-left: 135px;
+}
+
+#features .container .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #217BF4;
+
+    margin-right: 100px;
+    margin-top: 190px;
+}
+
+#features .container h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #0A093D;
+
+    margin-top: 9px;
+    margin-right: 100px;
+}
+
+#features .container p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #656464;
+
+    margin-right: 101px;
+    margin-top: 14px;
+
+}
+
+#features .container .sorting {
+    width: 1100px;
+    height: 700px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(2, 522px);
+    grid-template-rows: repeat(3, 182px) 44px repeat(2, 182px);
+    gap: 44px;
+}
+
+#features .container .sorting .friends .firstimg {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+#features .container .sorting .friends {
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    width: 522px;
+    height: 182px;
+}
+
+#features .container .sorting .friends .firstbackground {
+    width: 90px;
+    height: 90px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#features .container .sorting .friends .firsticon {
+    position: absolute;
+    top: 54px;
+    left: 68px;
+}
+
+#features .container .sorting .friends h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #2F2C4A;
+
+    margin-top: -47px;
+    margin-left: 103px;
+}
+
+#features .container .sorting .friends p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    /* or 162% */
+
+    color: #656464;
+
+    margin-left: 158px;
+    margin-top: 20px;
+}
+
+#features .container .sorting .groups {
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 522px;
+    height: 182px;
+}
+
+#features .container .sorting .groups .secondimg {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+#features .container .sorting .groups .secondbackground {
+    width: 90px;
+    height: 90px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#features .container .sorting .groups .secondicon {
+    position: absolute;
+    top: 59px;
+    left: 68px;
+}
+
+#features .container .sorting .groups h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #2F2C4A;
+
+    margin-top: -47px;
+    margin-left: -61px;
+}
+
+#features .container .sorting .groups p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    /* or 162% */
+
+
+    color: #656464;
+
+    margin-left: 141px;
+    width: 310px;
+}
+
+#features .container .sorting .forum {
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 522px;
+    height: 182px;
+}
+
+#features .container .sorting .forum .thirdimg {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+#features .container .sorting .forum .thirdbackground {
+    width: 90px;
+    height: 90px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#features .container .sorting .forum .thirdicon {
+    position: absolute;
+    top: 57px;
+    left: 69px;
+}
+
+#features .container .sorting .forum h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #2F2C4A;
+
+    margin-top: -47px;
+    margin-left: -33px;
+}
+
+#features .container .sorting .forum p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    /* or 162% */
+
+    color: #656464;
+
+    margin-left: 158px;
+    margin-top: 20px;
+
+    width: 291px;
+}
+
+#features .container .sorting .custom {
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 522px;
+    height: 182px;
+}
+
+#features .container .sorting .custom .fourthimg {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+#features .container .sorting .custom .fourthbackground {
+    width: 90px;
+    height: 90px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#features .container .sorting .custom .fourthicon {
+    position: absolute;
+    top: 52px;
+    left: 69px;
+}
+
+#features .container .sorting .custom h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #2F2C4A;
+
+    margin-top: -47px;
+    margin-left: 38px;
+}
+
+#features .container .sorting .custom p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    /* or 162% */
+
+
+    color: #656464;
+
+    margin-left: 138px;
+    margin-top: -16px;
+    width: 310px;
+}
+
+#features .container .sorting .list {
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 522px;
+    height: 182px;
+}
+
+#features .container .sorting .list .fifthimg {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+#features .container .sorting .list .fifthbackground {
+    width: 90px;
+    height: 90px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#features .container .sorting .list .fifthicon {
+    position: absolute;
+    top: 53px;
+    left: 72px;
+}
+
+#features .container .sorting .list h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #2F2C4A;
+
+    margin-top: -47px;
+    margin-left: 29px;
+}
+
+#features .container .sorting .list p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    /* or 162% */
+
+
+    color: #656464;
+
+    margin-left: 159px;
+    margin-top: -16px;
+    width: 310px;
+}
+
+#features .container .sorting .list_scroll {
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 522px;
+    height: 182px;
+}
+
+#features .container .sorting .list_scroll .sixthimg {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+#features .container .sorting .list_scroll .sixthbackground {
+    width: 90px;
+    height: 90px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+#features .container .sorting .list_scroll .sixthicon {
+    position: absolute;
+    top: 52px;
+    left: 69px;
+}
+
+#features .container .sorting .list_scroll h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #2F2C4A;
+
+    margin-top: -47px;
+    margin-left: 53px;
+}
+
+#features .container .sorting .list_scroll p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    /* or 162% */
+
+
+    color: #656464;
+
+    margin-left: 136px;
+    margin-top: -15px;
+    width: 310px;
+}

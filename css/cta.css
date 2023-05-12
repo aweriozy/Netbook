@@ -1,0 +1,81 @@
+#cta {
+    height: 560px;
+    background: #E5F0FD;
+    width: 1473px;
+    position: relative;
+    overflow: hidden;
+}
+
+#cta .container .left_part {
+    width: 351px;
+}
+
+
+#cta .container .left_part .aplication {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+
+    color: #217BF4;
+
+    padding-top: 122px;
+}
+
+#cta .container .left_part h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    /* or 144% */
+
+
+    color: #0A093D;
+
+    margin-top: 10px;
+}
+
+#cta .container .left_part p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #656464;
+
+    margin-top: 18px;
+}
+
+#cta .container .left_part .links {
+    display: grid;
+    grid-template-columns: repeat(2, 145px);
+    grid-gap: 20px;
+    width: 210px;
+    height: 52px;
+}
+
+#cta .container .left_part .firstlink {
+    margin-top: 36px;
+    margin-left: -24px;
+    cursor: pointer;
+}
+
+#cta .container .left_part .secondlink {
+    cursor: pointer;
+    margin-top: 58px;
+}
+
+#cta .container .full_block .phone {
+    width: 775px;
+    height: 1054px;
+    position: absolute;
+    left: 556px;
+    top: -27px;
+}

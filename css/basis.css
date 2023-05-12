@@ -1,0 +1,96 @@
+#basis {
+    margin-top: 96px;
+    height: 576px;
+    margin-left: 135px;
+}
+
+#basis .container .info .main_question {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 357px;
+
+
+    color: #217BF4;
+}
+
+#basis .container .info h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 133% */
+    margin-top: 10px;
+
+    color: #0A093D;
+}
+
+#basis .container .info .polls {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    margin-top: 16px;
+
+    color: #656464;
+}
+
+#basis .container .info img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 16px;
+}
+
+#basis .container .info .points {
+    margin-top: 36px;
+}
+
+#basis .container .illustration {
+    margin-left: 598px;
+    margin-top: -375px;
+    position: relative;
+    width: 600px;
+}
+
+
+#basis .container .illustration .video {
+    position: relative;
+}
+
+#basis .container .illustration .conferenceimg {
+    background: linear-gradient(0deg, rgba(43, 43, 57, 0.48), rgba(43, 43, 57, 0.48)), url(.jpg);
+    width: 245px;
+    height: 330px;
+
+}
+
+
+
+#basis .container .illustration .icon_play {
+    position: absolute;
+    top: 45%;
+    left: 105px;
+    cursor: pointer;
+}
+
+#basis .container .illustration .laptopimg {
+    width: 267px;
+    height: 252px;
+    position: absolute;
+    left: 266px;
+    top: -75px;
+}
+
+#basis .container .illustration .cablesimg {
+    margin-left: 264px;
+    margin-top: -128px;
+}
+
+#basis .container .illustration img {
+    border-radius: 50px;
+}
